@@ -1,1 +1,1 @@
-对rasa_nlu_chi的修改，目前增加了tfidf及w2v两种featurizer
+对rasa_nlu_chi的修改，目前增加了tfidf及w2v两种featurizer。
