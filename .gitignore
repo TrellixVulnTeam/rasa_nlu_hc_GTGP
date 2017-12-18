@@ -101,7 +101,7 @@ ENV/
 .mypy_cache/
 
 # my_ignore_files
-models/default/
+models/default/*
 test_models/
 data/total_word_feature_extractor_zh.dat
 data/w2v.pickle
