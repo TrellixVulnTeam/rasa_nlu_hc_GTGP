@@ -105,3 +105,4 @@ models/default/*
 test_models/
 data/total_word_feature_extractor_zh.dat
 data/w2v.pickle
+/push_all_to_git_remote_repo.sh
