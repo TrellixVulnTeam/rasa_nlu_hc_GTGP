@@ -102,8 +102,7 @@ ENV/
 
 # my_ignore_files
 .idea/
-models/default/*
-models/default/!README.md
+models/default/model*/
 test_models/
 data/total_word_feature_extractor_zh.dat
 data/w2v.pickle
