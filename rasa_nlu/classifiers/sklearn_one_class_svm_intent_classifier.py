@@ -52,9 +52,9 @@ class SklearnOneClassSvmIntentClassifier(Component):
             self.clf = {}
             for row in classes:
                 self.clf[row] = OneClassSVM(
-                    kernel="rbf",
-                    nu=0.3,
-                    gamma=10.0
+                    kernel="linear",
+                    nu=0.1,
+                    gamma=0.5
                 )
             for label in classes:
                 instances = X[[i for i, row in enumerate(labels) if row == label]]

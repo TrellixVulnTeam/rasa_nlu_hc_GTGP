@@ -43,7 +43,8 @@ class TfidfFeaturizer(Featurizer):
         return ["sklearn", "numpy"]
 
     def train(self, training_data, config, **kwargs):
-        self.vectorizer = TfidfVectorizer(tokenizer=lambda x: x.split(" "))
+        # 可以指定n-gram范围，针对小数据集可以用比较大的n-gram
+        self.vectorizer = TfidfVectorizer(tokenizer=lambda x: x.split(" "), ngram_range=(1, 3))
 
         sentences = [" ".join([token.text for token in tokens.get("tokens")]) for tokens in
                      training_data.intent_examples]
