@@ -5,7 +5,7 @@
         "ner_mitie",
         "ner_synonyms",
         "intent_featurizer_mitie",
-        "intent_classifier_sklearn"],
+        "sklearn_one_class_svm_intent_classifier"],
   "language": "zh",
   "mitie_file": "./data/total_word_feature_extractor_zh.dat",
   "path" : "./models",

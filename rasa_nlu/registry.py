@@ -22,6 +22,7 @@ from rasa_nlu.classifiers.keyword_intent_classifier import \
 from rasa_nlu.classifiers.mitie_intent_classifier import MitieIntentClassifier
 from rasa_nlu.classifiers.sklearn_intent_classifier import \
     SklearnIntentClassifier
+from rasa_nlu.classifiers.sklearn_one_class_svm_intent_classifier import SklearnOneClassSvmIntentClassifier
 from rasa_nlu.extractors.duckling_extractor import DucklingExtractor
 from rasa_nlu.extractors.duckling_http_extractor import DucklingHTTPExtractor
 from rasa_nlu.extractors.entity_synonyms import EntitySynonymMapper
@@ -56,7 +57,7 @@ component_classes = [
     EntitySynonymMapper,
     SpacyFeaturizer, MitieFeaturizer, NGramFeaturizer, RegexFeaturizer, TfidfFeaturizer, W2vfeaturizer,
     MitieTokenizer, SpacyTokenizer, WhitespaceTokenizer, JiebaTokenizer, LTPTokenizer,
-    SklearnIntentClassifier, MitieIntentClassifier, KeywordIntentClassifier,
+    SklearnIntentClassifier, MitieIntentClassifier, KeywordIntentClassifier, SklearnOneClassSvmIntentClassifier
 ]
 
 # Mapping from a components name to its class to allow name based lookup.
@@ -122,6 +123,7 @@ registered_pipeline_templates = {
         "intent_classifier_keyword",
         "intent_classifier_sklearn",
         "intent_classifier_mitie",
+        "sklearn_one_class_svm_intent_classifier"
     ]
 }
 
