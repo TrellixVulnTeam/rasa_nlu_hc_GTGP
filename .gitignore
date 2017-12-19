@@ -101,6 +101,7 @@ ENV/
 .mypy_cache/
 
 # my_ignore_files
+my_test.py
 .idea/
 models/default/model*/
 test_models/

@@ -1,0 +1,2216 @@
+{
+ "rasa_nlu_data": {
+  "common_examples": [
+   {
+    "text": "天气怎么样",
+    "entities": [],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "今天天气怎么样",
+    "entities": [
+     {
+      "value": "今天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "明天天气怎么样",
+    "entities": [
+     {
+      "value": "明天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "后天天气怎么样",
+    "entities": [
+     {
+      "value": "后天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "本周天气怎么样",
+    "entities": [
+     {
+      "value": "本周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "下周天气怎么样",
+    "entities": [
+     {
+      "value": "下周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "天气如何",
+    "entities": [],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "今天天气如何",
+    "entities": [
+     {
+      "value": "今天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "明天天气如何",
+    "entities": [
+     {
+      "value": "明天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "后天天气如何",
+    "entities": [
+     {
+      "value": "后天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "本周天气如何",
+    "entities": [
+     {
+      "value": "本周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "下周天气如何",
+    "entities": [
+     {
+      "value": "下周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "天气好不",
+    "entities": [],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "今天天气好不",
+    "entities": [
+     {
+      "value": "今天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "明天天气好不",
+    "entities": [
+     {
+      "value": "明天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "后天天气好不",
+    "entities": [
+     {
+      "value": "后天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "本周天气好不",
+    "entities": [
+     {
+      "value": "本周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "下周天气好不",
+    "entities": [
+     {
+      "value": "下周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "是晴天吗",
+    "entities": [],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "今天是晴天吗",
+    "entities": [
+     {
+      "value": "今天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "明天是晴天吗",
+    "entities": [
+     {
+      "value": "明天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "后天是晴天吗",
+    "entities": [
+     {
+      "value": "后天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "本周是晴天吗",
+    "entities": [
+     {
+      "value": "本周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "下周是晴天吗",
+    "entities": [
+     {
+      "value": "下周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "会不会晴",
+    "entities": [],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "今天会不会晴",
+    "entities": [
+     {
+      "value": "今天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "明天会不会晴",
+    "entities": [
+     {
+      "value": "明天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "后天会不会晴",
+    "entities": [
+     {
+      "value": "后天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "本周会不会晴",
+    "entities": [
+     {
+      "value": "本周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "下周会不会晴",
+    "entities": [
+     {
+      "value": "下周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "会不会下雨",
+    "entities": [],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "今天会不会下雨",
+    "entities": [
+     {
+      "value": "今天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "明天会不会下雨",
+    "entities": [
+     {
+      "value": "明天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "后天会不会下雨",
+    "entities": [
+     {
+      "value": "后天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "本周会不会下雨",
+    "entities": [
+     {
+      "value": "本周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "下周会不会下雨",
+    "entities": [
+     {
+      "value": "下周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "会下雨吗",
+    "entities": [],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "今天会下雨吗",
+    "entities": [
+     {
+      "value": "今天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "明天会下雨吗",
+    "entities": [
+     {
+      "value": "明天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "后天会下雨吗",
+    "entities": [
+     {
+      "value": "后天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "本周会下雨吗",
+    "entities": [
+     {
+      "value": "本周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "下周会下雨吗",
+    "entities": [
+     {
+      "value": "下周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "有没有雨",
+    "entities": [],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "今天有没有雨",
+    "entities": [
+     {
+      "value": "今天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "明天有没有雨",
+    "entities": [
+     {
+      "value": "明天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "后天有没有雨",
+    "entities": [
+     {
+      "value": "后天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "本周有没有雨",
+    "entities": [
+     {
+      "value": "本周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "下周有没有雨",
+    "entities": [
+     {
+      "value": "下周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "是晴天还是雨天",
+    "entities": [],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "今天是晴天还是雨天",
+    "entities": [
+     {
+      "value": "今天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "明天是晴天还是雨天",
+    "entities": [
+     {
+      "value": "明天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "后天是晴天还是雨天",
+    "entities": [
+     {
+      "value": "后天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "本周是晴天还是雨天",
+    "entities": [
+     {
+      "value": "本周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "下周是晴天还是雨天",
+    "entities": [
+     {
+      "value": "下周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "阴天还是下雨",
+    "entities": [],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "今天阴天还是下雨",
+    "entities": [
+     {
+      "value": "今天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "明天阴天还是下雨",
+    "entities": [
+     {
+      "value": "明天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "后天阴天还是下雨",
+    "entities": [
+     {
+      "value": "后天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "本周阴天还是下雨",
+    "entities": [
+     {
+      "value": "本周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "下周阴天还是下雨",
+    "entities": [
+     {
+      "value": "下周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "晴天还是阴天",
+    "entities": [],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "今天晴天还是阴天",
+    "entities": [
+     {
+      "value": "今天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "明天晴天还是阴天",
+    "entities": [
+     {
+      "value": "明天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "后天晴天还是阴天",
+    "entities": [
+     {
+      "value": "后天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "本周晴天还是阴天",
+    "entities": [
+     {
+      "value": "本周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "下周晴天还是阴天",
+    "entities": [
+     {
+      "value": "下周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "是阴天吗",
+    "entities": [],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "今天是阴天吗",
+    "entities": [
+     {
+      "value": "今天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "明天是阴天吗",
+    "entities": [
+     {
+      "value": "明天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "后天是阴天吗",
+    "entities": [
+     {
+      "value": "后天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "本周是阴天吗",
+    "entities": [
+     {
+      "value": "本周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "下周是阴天吗",
+    "entities": [
+     {
+      "value": "下周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "多云还是阴天",
+    "entities": [],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "今天多云还是阴天",
+    "entities": [
+     {
+      "value": "今天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "明天多云还是阴天",
+    "entities": [
+     {
+      "value": "明天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "后天多云还是阴天",
+    "entities": [
+     {
+      "value": "后天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "本周多云还是阴天",
+    "entities": [
+     {
+      "value": "本周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "下周多云还是阴天",
+    "entities": [
+     {
+      "value": "下周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "是什么天气",
+    "entities": [],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "今天是什么天气",
+    "entities": [
+     {
+      "value": "今天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "明天是什么天气",
+    "entities": [
+     {
+      "value": "明天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "后天是什么天气",
+    "entities": [
+     {
+      "value": "后天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "本周是什么天气",
+    "entities": [
+     {
+      "value": "本周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "下周是什么天气",
+    "entities": [
+     {
+      "value": "下周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "多云还是阴天",
+    "entities": [],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "今天多云还是阴天",
+    "entities": [
+     {
+      "value": "今天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "明天多云还是阴天",
+    "entities": [
+     {
+      "value": "明天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "后天多云还是阴天",
+    "entities": [
+     {
+      "value": "后天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "本周多云还是阴天",
+    "entities": [
+     {
+      "value": "本周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "下周多云还是阴天",
+    "entities": [
+     {
+      "value": "下周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_weather"
+   },
+   {
+    "text": "多少度",
+    "entities": [],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "今天多少度",
+    "entities": [
+     {
+      "value": "今天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "明天多少度",
+    "entities": [
+     {
+      "value": "明天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "后天多少度",
+    "entities": [
+     {
+      "value": "后天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "本周多少度",
+    "entities": [
+     {
+      "value": "本周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "下周多少度",
+    "entities": [
+     {
+      "value": "下周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "温度多少度",
+    "entities": [],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "今天温度多少度",
+    "entities": [
+     {
+      "value": "今天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "明天温度多少度",
+    "entities": [
+     {
+      "value": "明天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "后天温度多少度",
+    "entities": [
+     {
+      "value": "后天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "本周温度多少度",
+    "entities": [
+     {
+      "value": "本周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "下周温度多少度",
+    "entities": [
+     {
+      "value": "下周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "气温多少",
+    "entities": [],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "今天气温多少",
+    "entities": [
+     {
+      "value": "今天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "明天气温多少",
+    "entities": [
+     {
+      "value": "明天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "后天气温多少",
+    "entities": [
+     {
+      "value": "后天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "本周气温多少",
+    "entities": [
+     {
+      "value": "本周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "下周气温多少",
+    "entities": [
+     {
+      "value": "下周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "几度",
+    "entities": [],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "今天几度",
+    "entities": [
+     {
+      "value": "今天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "明天几度",
+    "entities": [
+     {
+      "value": "明天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "后天几度",
+    "entities": [
+     {
+      "value": "后天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "本周几度",
+    "entities": [
+     {
+      "value": "本周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "下周几度",
+    "entities": [
+     {
+      "value": "下周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "冷不冷",
+    "entities": [],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "今天冷不冷",
+    "entities": [
+     {
+      "value": "今天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "明天冷不冷",
+    "entities": [
+     {
+      "value": "明天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "后天冷不冷",
+    "entities": [
+     {
+      "value": "后天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "本周冷不冷",
+    "entities": [
+     {
+      "value": "本周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "下周冷不冷",
+    "entities": [
+     {
+      "value": "下周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "有多冷",
+    "entities": [],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "今天有多冷",
+    "entities": [
+     {
+      "value": "今天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "明天有多冷",
+    "entities": [
+     {
+      "value": "明天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "后天有多冷",
+    "entities": [
+     {
+      "value": "后天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "本周有多冷",
+    "entities": [
+     {
+      "value": "本周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "下周有多冷",
+    "entities": [
+     {
+      "value": "下周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "冷不",
+    "entities": [],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "今天冷不",
+    "entities": [
+     {
+      "value": "今天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "明天冷不",
+    "entities": [
+     {
+      "value": "明天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "后天冷不",
+    "entities": [
+     {
+      "value": "后天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "本周冷不",
+    "entities": [
+     {
+      "value": "本周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "下周冷不",
+    "entities": [
+     {
+      "value": "下周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "热不热",
+    "entities": [],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "今天热不热",
+    "entities": [
+     {
+      "value": "今天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "明天热不热",
+    "entities": [
+     {
+      "value": "明天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "后天热不热",
+    "entities": [
+     {
+      "value": "后天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "本周热不热",
+    "entities": [
+     {
+      "value": "本周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "下周热不热",
+    "entities": [
+     {
+      "value": "下周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "热不",
+    "entities": [],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "今天热不",
+    "entities": [
+     {
+      "value": "今天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "明天热不",
+    "entities": [
+     {
+      "value": "明天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "后天热不",
+    "entities": [
+     {
+      "value": "后天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "本周热不",
+    "entities": [
+     {
+      "value": "本周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "下周热不",
+    "entities": [
+     {
+      "value": "下周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "多热",
+    "entities": [],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "今天多热",
+    "entities": [
+     {
+      "value": "今天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "明天多热",
+    "entities": [
+     {
+      "value": "明天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "后天多热",
+    "entities": [
+     {
+      "value": "后天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "本周多热",
+    "entities": [
+     {
+      "value": "本周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "下周多热",
+    "entities": [
+     {
+      "value": "下周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "凉快吗",
+    "entities": [],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "今天凉快吗",
+    "entities": [
+     {
+      "value": "今天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "明天凉快吗",
+    "entities": [
+     {
+      "value": "明天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "后天凉快吗",
+    "entities": [
+     {
+      "value": "后天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "本周凉快吗",
+    "entities": [
+     {
+      "value": "本周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "下周凉快吗",
+    "entities": [
+     {
+      "value": "下周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "凉不凉快",
+    "entities": [],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "今天凉不凉快",
+    "entities": [
+     {
+      "value": "今天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "明天凉不凉快",
+    "entities": [
+     {
+      "value": "明天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "后天凉不凉快",
+    "entities": [
+     {
+      "value": "后天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "本周凉不凉快",
+    "entities": [
+     {
+      "value": "本周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "下周凉不凉快",
+    "entities": [
+     {
+      "value": "下周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_temperature"
+   },
+   {
+    "text": "空气怎么样",
+    "entities": [],
+    "intent": "weather_aqi"
+   },
+   {
+    "text": "今天空气怎么样",
+    "entities": [
+     {
+      "value": "今天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_aqi"
+   },
+   {
+    "text": "明天空气怎么样",
+    "entities": [
+     {
+      "value": "明天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_aqi"
+   },
+   {
+    "text": "后天空气怎么样",
+    "entities": [
+     {
+      "value": "后天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_aqi"
+   },
+   {
+    "text": "本周空气怎么样",
+    "entities": [
+     {
+      "value": "本周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_aqi"
+   },
+   {
+    "text": "下周空气怎么样",
+    "entities": [
+     {
+      "value": "下周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_aqi"
+   },
+   {
+    "text": "空气质量怎么样",
+    "entities": [],
+    "intent": "weather_aqi"
+   },
+   {
+    "text": "今天空气质量怎么样",
+    "entities": [
+     {
+      "value": "今天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_aqi"
+   },
+   {
+    "text": "明天空气质量怎么样",
+    "entities": [
+     {
+      "value": "明天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_aqi"
+   },
+   {
+    "text": "后天空气质量怎么样",
+    "entities": [
+     {
+      "value": "后天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_aqi"
+   },
+   {
+    "text": "本周空气质量怎么样",
+    "entities": [
+     {
+      "value": "本周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_aqi"
+   },
+   {
+    "text": "下周空气质量怎么样",
+    "entities": [
+     {
+      "value": "下周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_aqi"
+   },
+   {
+    "text": "空气好不好",
+    "entities": [],
+    "intent": "weather_aqi"
+   },
+   {
+    "text": "今天空气好不好",
+    "entities": [
+     {
+      "value": "今天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_aqi"
+   },
+   {
+    "text": "明天空气好不好",
+    "entities": [
+     {
+      "value": "明天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_aqi"
+   },
+   {
+    "text": "后天空气好不好",
+    "entities": [
+     {
+      "value": "后天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_aqi"
+   },
+   {
+    "text": "本周空气好不好",
+    "entities": [
+     {
+      "value": "本周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_aqi"
+   },
+   {
+    "text": "下周空气好不好",
+    "entities": [
+     {
+      "value": "下周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_aqi"
+   },
+   {
+    "text": "污染严重吗",
+    "entities": [],
+    "intent": "weather_aqi"
+   },
+   {
+    "text": "今天污染严重吗",
+    "entities": [
+     {
+      "value": "今天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_aqi"
+   },
+   {
+    "text": "明天污染严重吗",
+    "entities": [
+     {
+      "value": "明天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_aqi"
+   },
+   {
+    "text": "后天污染严重吗",
+    "entities": [
+     {
+      "value": "后天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_aqi"
+   },
+   {
+    "text": "本周污染严重吗",
+    "entities": [
+     {
+      "value": "本周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_aqi"
+   },
+   {
+    "text": "下周污染严重吗",
+    "entities": [
+     {
+      "value": "下周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_aqi"
+   },
+   {
+    "text": "空气污染情况",
+    "entities": [],
+    "intent": "weather_aqi"
+   },
+   {
+    "text": "今天空气污染情况",
+    "entities": [
+     {
+      "value": "今天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_aqi"
+   },
+   {
+    "text": "明天空气污染情况",
+    "entities": [
+     {
+      "value": "明天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_aqi"
+   },
+   {
+    "text": "后天空气污染情况",
+    "entities": [
+     {
+      "value": "后天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_aqi"
+   },
+   {
+    "text": "本周空气污染情况",
+    "entities": [
+     {
+      "value": "本周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_aqi"
+   },
+   {
+    "text": "下周空气污染情况",
+    "entities": [
+     {
+      "value": "下周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_aqi"
+   },
+   {
+    "text": "是不是严重污染",
+    "entities": [],
+    "intent": "weather_aqi"
+   },
+   {
+    "text": "今天是不是严重污染",
+    "entities": [
+     {
+      "value": "今天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_aqi"
+   },
+   {
+    "text": "明天是不是严重污染",
+    "entities": [
+     {
+      "value": "明天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_aqi"
+   },
+   {
+    "text": "后天是不是严重污染",
+    "entities": [
+     {
+      "value": "后天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_aqi"
+   },
+   {
+    "text": "本周是不是严重污染",
+    "entities": [
+     {
+      "value": "本周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_aqi"
+   },
+   {
+    "text": "下周是不是严重污染",
+    "entities": [
+     {
+      "value": "下周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_aqi"
+   },
+   {
+    "text": "污染严重吗",
+    "entities": [],
+    "intent": "weather_aqi"
+   },
+   {
+    "text": "今天污染严重吗",
+    "entities": [
+     {
+      "value": "今天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_aqi"
+   },
+   {
+    "text": "明天污染严重吗",
+    "entities": [
+     {
+      "value": "明天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_aqi"
+   },
+   {
+    "text": "后天污染严重吗",
+    "entities": [
+     {
+      "value": "后天",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_aqi"
+   },
+   {
+    "text": "本周污染严重吗",
+    "entities": [
+     {
+      "value": "本周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_aqi"
+   },
+   {
+    "text": "下周污染严重吗",
+    "entities": [
+     {
+      "value": "下周",
+      "entity": "time",
+      "end": 2,
+      "start": 0
+     }
+    ],
+    "intent": "weather_aqi"
+   }
+  ]
+ }
+}

@@ -3,14 +3,14 @@ from rasa_nlu.config import RasaNLUConfig
 from rasa_nlu.converters import load_data
 
 # training
-# training_data = load_data("./data/examples/rasa/demo-rasa_zh.json")
+# training_data = load_data("./data/examples/rasa/weather_intension_full.json")
 # trainer = Trainer(RasaNLUConfig("./sample_configs/_my_config.json"))
 # trainer.train(training_data)
 # model_directory = trainer.persist("./models/")
 # print("saved model directory: %s" % model_directory)
 
 # prediction
-interpreter = Interpreter.load("./models/default/model_20171218-143301",
+interpreter = Interpreter.load("./models/default/model_20171219-120405",
                                RasaNLUConfig("./sample_configs/_my_config.json"))
 while True:
     inputs = input("Q: ")
