@@ -94,13 +94,13 @@ class SklearnIntentClassifier(Component):
             X = np.stack([example.get("text_features") for example in training_data.intent_examples])
 
             sklearn_config = config.get("intent_classifier_sklearn")
-            C = sklearn_config.get("C", [1, 2, 5, 10, 20, 100])
+            C = sklearn_config.get("C", [0.1, 1, 2, 5, 10, 20, 100])
             kernel = sklearn_config.get("kernel", "linear")
             # dirty str fix because sklearn is expecting str not instance of basestr...
             tuned_parameters = [{"C": C, "kernel": [str(kernel)]}]
             cv_splits = max(2, min(MAX_CV_FOLDS, np.min(np.bincount(y)) // 5))  # aim for 5 examples in each fold
 
-            self.clf = GridSearchCV(SVC(C=1, probability=True, class_weight='balanced'),
+            self.clf = GridSearchCV(SVC(C=C, probability=True, class_weight='balanced'),
                                     param_grid=tuned_parameters, n_jobs=config["num_threads"],
                                     cv=cv_splits, scoring='f1_weighted', verbose=1)
 
