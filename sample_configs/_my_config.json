@@ -1,5 +1,5 @@
 {
-  "fixed_model_name": "rasa_nlu_test",
+  "project": "rasa_nlu_test",
   "pipeline": ["nlp_mitie",
         "tokenizer_ltp",
         "ner_mitie",
