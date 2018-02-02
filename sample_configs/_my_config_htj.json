@@ -1,0 +1,14 @@
+{
+  "project": "htj_nlu",
+  "pipeline": ["nlp_mitie",
+        "tokenizer_ltp",
+        "ner_mitie",
+        "ner_synonyms",
+        "tfidf_featurizer",
+        "sklearn_one_class_svm_intent_classifier"],
+  "language": "zh",
+  "mitie_file": "./data/total_word_feature_extractor_zh.dat",
+  "path" : "./models",
+  "data" : "./data/examples/rasa/htj_nlu_clf_data.json",
+  "port": 9993
+}

@@ -1,0 +1,20 @@
+{
+    "language": "zh",
+    "entity_extractor_mitie": null,
+    "sklearn_one_class_svm_intent_classifier": "sklearn_one_class_svm_intent_classifier.pkl",
+    "mitie_file": "./data/total_word_feature_extractor_zh.dat",
+    "pipeline": [
+        "rasa_nlu.utils.mitie_utils.MitieNLP",
+        "rasa_nlu.tokenizers.ltp_tokenizer.LTPTokenizer",
+        "rasa_nlu.extractors.mitie_entity_extractor.MitieEntityExtractor",
+        "rasa_nlu.extractors.entity_synonyms.EntitySynonymMapper",
+        "rasa_nlu.featurizers.tfidf_featurizer.TfidfFeaturizer",
+        "rasa_nlu.classifiers.sklearn_one_class_svm_intent_classifier.SklearnOneClassSvmIntentClassifier"
+    ],
+    "rasa_nlu_version": "0.10.4",
+    "trained_at": "20180202-114938",
+    "entity_synonyms": null,
+    "mitie_feature_extractor_fingerprint": 1810187658478185215,
+    "tfidf_featurizer": "tfidf_featurizer.pkl",
+    "training_data": "training_data.json"
+}
