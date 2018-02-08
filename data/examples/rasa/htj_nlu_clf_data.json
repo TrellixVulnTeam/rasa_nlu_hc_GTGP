@@ -2,299 +2,304 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
+        "intent": "price",
         "entities": [],
-        "text": "值多少钱",
-        "intent": "price"
+        "text": "值多少钱"
       },
       {
+        "intent": "price",
         "entities": [],
-        "text": "多少钱",
-        "intent": "price"
+        "text": "多少钱"
       },
       {
+        "intent": "price",
         "entities": [],
-        "text": "好多钱",
-        "intent": "price"
+        "text": "好多钱"
       },
       {
+        "intent": "price",
         "entities": [],
-        "text": "卖多少钱",
-        "intent": "price"
+        "text": "卖多少钱"
       },
       {
+        "intent": "price",
         "entities": [],
-        "text": "价钱",
-        "intent": "price"
+        "text": "价钱"
       },
       {
+        "intent": "price",
         "entities": [],
-        "text": "价格",
-        "intent": "price"
+        "text": "价格"
       },
       {
+        "intent": "price",
         "entities": [],
-        "text": "价值",
-        "intent": "price"
+        "text": "价值"
       },
       {
+        "intent": "price",
         "entities": [],
-        "text": "怎么卖",
-        "intent": "price"
+        "text": "怎么卖"
       },
       {
+        "intent": "price",
         "entities": [],
-        "text": "咋卖",
-        "intent": "price"
+        "text": "咋卖"
       },
       {
+        "intent": "price",
         "entities": [],
-        "text": "打折",
-        "intent": "price"
+        "text": "打折"
       },
       {
+        "intent": "price",
         "entities": [],
-        "text": "折扣",
-        "intent": "price"
+        "text": "折扣"
       },
       {
+        "intent": "price",
         "entities": [],
-        "text": "优惠",
-        "intent": "price"
+        "text": "优惠"
       },
       {
+        "intent": "price_max",
         "entities": [],
-        "text": "最贵",
-        "intent": "price_max"
+        "text": "最贵"
       },
       {
+        "intent": "price_max",
         "entities": [],
-        "text": "价格最高",
-        "intent": "price_max"
+        "text": "价格最高"
       },
       {
+        "intent": "price_min",
         "entities": [],
-        "text": "最便宜",
-        "intent": "price_min"
+        "text": "最便宜"
       },
       {
+        "intent": "price_min",
         "entities": [],
-        "text": "价格最低",
-        "intent": "price_min"
+        "text": "价格最低"
       },
       {
+        "intent": "price_min",
         "entities": [],
-        "text": "价格最便宜",
-        "intent": "price_min"
+        "text": "价格最便宜"
       },
       {
+        "intent": "delivery_price",
         "entities": [],
-        "text": "快递价格",
-        "intent": "delivery_price"
+        "text": "快递价格"
       },
       {
+        "intent": "delivery_price",
         "entities": [],
-        "text": "包邮",
-        "intent": "delivery_price"
+        "text": "包邮"
       },
       {
+        "intent": "delivery_price",
         "entities": [],
-        "text": "邮费",
-        "intent": "delivery_price"
+        "text": "邮费"
       },
       {
+        "intent": "delivery_price",
         "entities": [],
-        "text": "物流价格",
-        "intent": "delivery_price"
+        "text": "物流价格"
       },
       {
+        "intent": "delivery_price",
         "entities": [],
-        "text": "快递多少钱",
-        "intent": "delivery_price"
+        "text": "快递多少钱"
       },
       {
+        "intent": "delivery_price",
         "entities": [],
-        "text": "物流多少钱",
-        "intent": "delivery_price"
+        "text": "物流多少钱"
       },
       {
+        "intent": "info",
         "entities": [],
-        "text": "规格",
-        "intent": "info"
+        "text": "规格"
       },
       {
+        "intent": "info",
         "entities": [],
-        "text": "重量",
-        "intent": "info"
+        "text": "重量"
       },
       {
+        "intent": "info",
         "entities": [],
-        "text": "产地",
-        "intent": "info"
+        "text": "产地"
       },
       {
+        "intent": "delivery_query",
         "entities": [],
-        "text": "包裹到哪",
-        "intent": "delivery_query"
+        "text": "包裹到哪"
       },
       {
+        "intent": "delivery_query",
         "entities": [],
-        "text": "快递到哪",
-        "intent": "delivery_query"
+        "text": "快递到哪"
       },
       {
+        "intent": "delivery_query",
         "entities": [],
-        "text": "怎么这么慢",
-        "intent": "delivery_query"
+        "text": "怎么这么慢"
       },
       {
+        "intent": "delivery_query",
         "entities": [],
-        "text": "怎么还没到",
-        "intent": "delivery_query"
+        "text": "怎么还没到"
       },
       {
+        "intent": "delivery_query",
         "entities": [],
-        "text": "物流查询",
-        "intent": "delivery_query"
+        "text": "物流查询"
       },
       {
+        "intent": "delivery_query",
         "entities": [],
-        "text": "快递查询",
-        "intent": "delivery_query"
+        "text": "快递查询"
       },
       {
+        "intent": "delivery_query",
         "entities": [],
-        "text": "物流信息",
-        "intent": "delivery_query"
+        "text": "物流信息"
       },
       {
+        "intent": "delivery_query",
         "entities": [],
-        "text": "快递信息",
-        "intent": "delivery_query"
+        "text": "快递信息"
       },
       {
+        "intent": "delivery_query",
         "entities": [],
-        "text": "啥时候到",
-        "intent": "delivery_query"
+        "text": "啥时候到"
       },
       {
+        "intent": "delivery_query",
         "entities": [],
-        "text": "什么时候到",
-        "intent": "delivery_query"
+        "text": "什么时候到"
       },
       {
+        "intent": "delivery_query",
         "entities": [],
-        "text": "多久寄到",
-        "intent": "delivery_query"
+        "text": "多久寄到"
       },
       {
+        "intent": "delivery_query",
         "entities": [],
-        "text": "多久到货",
-        "intent": "delivery_query"
+        "text": "多久到货"
       },
       {
+        "intent": "delivery_query",
         "entities": [],
-        "text": "啥时候到货",
-        "intent": "delivery_query"
+        "text": "啥时候到货"
       },
       {
+        "intent": "delivery_query",
         "entities": [],
-        "text": "什么时候到货",
-        "intent": "delivery_query"
+        "text": "什么时候到货"
       },
       {
+        "intent": "delivery_query",
         "entities": [],
-        "text": "发货没有",
-        "intent": "delivery_query"
+        "text": "发货没有"
       },
       {
+        "intent": "delivery_query",
         "entities": [],
-        "text": "发货没",
-        "intent": "delivery_query"
+        "text": "发货没"
       },
       {
+        "intent": "delivery_query",
         "entities": [],
-        "text": "什么时候发货",
-        "intent": "delivery_query"
+        "text": "什么时候发货"
       },
       {
+        "intent": "delivery_query",
         "entities": [],
-        "text": "啥时候发货",
-        "intent": "delivery_query"
+        "text": "啥时候发货"
       },
       {
+        "intent": "delivery_query",
         "entities": [],
-        "text": "什么快递",
-        "intent": "delivery_query"
+        "text": "什么快递"
       },
       {
+        "intent": "delivery_query",
         "entities": [],
-        "text": "什么时候送货",
-        "intent": "delivery_query"
+        "text": "什么时候送货"
       },
       {
+        "intent": "delivery_query",
         "entities": [],
-        "text": "啥时候送货",
-        "intent": "delivery_query"
+        "text": "啥时候送货"
       },
       {
+        "intent": "delivery_query",
         "entities": [],
-        "text": "什么时候派送",
-        "intent": "delivery_query"
+        "text": "什么时候派送"
       },
       {
+        "intent": "delivery_query",
         "entities": [],
-        "text": "啥时候派送",
-        "intent": "delivery_query"
+        "text": "啥时候派送"
       },
       {
+        "intent": "delivery_query",
         "entities": [],
-        "text": "怎么还没派送",
-        "intent": "delivery_query"
+        "text": "怎么还没派送"
       },
       {
+        "intent": "delivery_query",
         "entities": [],
-        "text": "怎么还没送货",
-        "intent": "delivery_query"
+        "text": "怎么还没送货"
       },
       {
+        "intent": "delivery_query",
         "entities": [],
-        "text": "怎么还没发货",
-        "intent": "delivery_query"
+        "text": "怎么还没发货"
       },
       {
+        "intent": "delivery_query",
         "entities": [],
-        "text": "货到哪",
-        "intent": "delivery_query"
+        "text": "货到哪"
       },
       {
+        "intent": "delivery_query",
         "entities": [],
-        "text": "快递到什么地方",
-        "intent": "delivery_query"
+        "text": "快递到什么地方"
       },
       {
+        "intent": "delivery_query",
         "entities": [],
-        "text": "包裹到什么地方",
-        "intent": "delivery_query"
+        "text": "包裹到什么地方"
       },
       {
+        "intent": "delivery_query",
         "entities": [],
-        "text": "订单查询",
-        "intent": "delivery_query"
+        "text": "订单查询"
       },
       {
+        "intent": "delivery_query",
         "entities": [],
-        "text": "订单信息",
-        "intent": "delivery_query"
+        "text": "订单信息"
       },
       {
+        "intent": "delivery_query",
         "entities": [],
-        "text": "我订单",
-        "intent": "delivery_query"
+        "text": "我订单"
       },
       {
+        "intent": "delivery_query",
         "entities": [],
-        "text": "我快递",
-        "intent": "delivery_query"
+        "text": "我快递"
+      },
+      {
+        "intent": "delivery_query",
+        "entities": [],
+        "text": "订单"
       }
     ]
   }
